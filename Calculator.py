@@ -8,17 +8,11 @@ def add(x, y):
 def subtract(x, y):
     return x - y
 
-# This function multiplies two numbers
-
-# This function divides two numbers
-def divide(x, y):
-    return x / y
-
-
+#Removed divide related code
 print("Select operation.")
 print("1.Add")
 print("2.Subtract")
-print("4.Divide")
+
 
 while True:
     # Take input from the user
@@ -35,8 +29,6 @@ while True:
         elif choice == '2':
             print(num1, "-", num2, "=", subtract(num1, num2))
 
-        elif choice == '4':
-            print(num1, "/", num2, "=", divide(num1, num2))
         break
     else:
         print("Invalid Input")
