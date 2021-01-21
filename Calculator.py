@@ -1,6 +1,7 @@
 # Program make a simple calculator
 
 #New comment added
+#New comment added - gitpra
 # This function adds two numbers
 def add(x, y):
     return x + y
